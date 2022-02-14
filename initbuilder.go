@@ -55,7 +55,7 @@ func main() {
 	}
 
 	if name == "" {
-		return
+		fmt.Println("No name was found")
 	}
 
 	fmt.Println()
