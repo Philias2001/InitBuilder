@@ -108,8 +108,8 @@ func eu()string {
 			initName += c + "."
 	}
 
-	count := len(initName) - 1
-	initName = initName[0:count]
+	// count := len(initName) - 1
+	// initName = initName[0:count]
 
 	if inputPreposistion == "" {
 		initName += " " + inputLastName
@@ -153,8 +153,8 @@ func international()string {
 		}
 	}
 
-	count := len(initName) - 1
-	initName = initName[0:count]
+	// count := len(initName) - 1
+	// initName = initName[0:count]
 
 	return initName
 }
